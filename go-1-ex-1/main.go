@@ -8,7 +8,7 @@ func main() {
 	var lastName = "Christen"
 	var dayOfBirth, monthOfBirth, yearOfBirth = 30, 8, 2009
 	numberOfSiblings := 1
-	heightInMeters, zodiacSign := 170.0, '\u264D'
+	heightInMeters, zodiacSign := 171.0, '\u264D'
 
 	fmt.Printf("Vor- und Nachname: %s %s\n", firstName, lastName)
 	fmt.Printf("Geburtsdatum: %d.%d.%d\n", dayOfBirth, monthOfBirth, yearOfBirth)
