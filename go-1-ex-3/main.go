@@ -12,12 +12,11 @@ func main() {
 	var when = time.Now()
 
 	// TODO: use fmt.Fprintln instead!
-	fmt.Fprintln(os.Stdout, "the dice shows", eyes, "eyes")
+	fmt.Fprintln(os.Stdout, "the dice shows", eyes, "eyes") // Stdout für normalen output
 
 	// TODO: use fmt.Fprintln instead!
-	fmt.Fprintln(os.Stdout, "the dice was rolled at", when)
+	fmt.Fprintln(os.Stderr, "the dice was rolled at", when) // Stderr für errors, debugging, logs etc.
 
 	// TODO: how to write the output into eyes.txt and dice.log?
-	// go run go-1-ex-3/main.go >eyes.txt TODO
-	// go run go-1-ex-3/main.go >dice.log
+	// go run go-1-ex-3/main.go >eyes.txt 2>dice.log
 }
